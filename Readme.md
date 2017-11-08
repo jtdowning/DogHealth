@@ -4,9 +4,9 @@ This was a pair programming exercise that was taken place at Pair Columbus, in S
 We set up the input to have the user put in what type of animal and what needs to happen next. 
 
 From the Pair Columbus Repoistory here were the guidelines of our exercise:
+
+
 RescueDog
-
-
 
 My name is Mika, I work at a shelter. My job is to handle dog intake. First, I put a dog into its pen and then I enter each dogs data into our system for other staff to complete their tasks to get a dog ready for a potential home. Our system needs a complete overhaul so we need you to build a new one for us.
 
@@ -30,10 +30,4 @@ FYI
 
 Feel free to get creative!
 Assume that each staffperson will automatically return the pet to its pen upon completion of its task.
-We're simulating the time it takes for each staffperson to complete their task. Be sure to incorporate something like the following:
-  class Vet
-    def complete_task(dog)
-      sleep 5
-      puts "#{dog.name} is now healthy!"
-    end
-  end
+
